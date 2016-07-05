@@ -15,9 +15,9 @@
 $(call inherit-product, device/yu/tomato/full_tomato.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/xos/config/common.mk)
+$(call inherit-product, vendor/toxic/config/common.mk)
 
-PRODUCT_NAME := XOS_tomato
+PRODUCT_NAME := toxic_tomato
 BOARD_VENDOR := yu
 PRODUCT_DEVICE := tomato
 
